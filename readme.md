@@ -5,7 +5,8 @@ Last edited by: Brianna
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-# Command Line Interface (Bash)
+# Command Line Interface
+![under construction](http://www.sharonkgilbert.com/wp-content/uploads/2015/12/Under-construction-1-150x150.png)
 
 ### Why is this important?
 <!-- framing the "why" in big-picture/real world examples -->
