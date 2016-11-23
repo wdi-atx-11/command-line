@@ -38,7 +38,7 @@ Many of the tasks developers perform are faster when done from the command line,
 - Create, move, copy, and delete files or directories from the graphical interface.
 
 
-###shell
+<!-- ###shell
 
 `shell command move file`
 
@@ -212,3 +212,4 @@ We'll use `PUT` or `PATCH` to send data to update item information on the server
 1. [Starting an Express Project](http://expressjs.com/starter/installing.html)
 1. [Express Hello World](http://expressjs.com/starter/hello-world.html)
 1. [Express Basic Routing](http://expressjs.com/starter/basic-routing.html)
+-->
