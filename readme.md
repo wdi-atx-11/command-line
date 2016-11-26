@@ -77,9 +77,11 @@ On the command line, bash usually have the same structure. The base command is f
 
 4. `touch`
 
-5. `rm`
+5. `mv`
 
-6. `cp`
+6. `rm`
+
+7. `cp`
 
 
 ####Common Flags
@@ -135,19 +137,20 @@ Relative Paths:
 
 1. What is a "shell"?
 
-1. What extra step should you take before running a command with `sudo`?
+1. What will be your go-to resource to
 
 **Put it into practice!**
 
-1. When you need to work with your file system in WDI, use the command line.  Make `cd`, `ls`, `mkdir`, and `touch`  a part of your everyday coding habits this week.  If you feel comfortable with those already, choose a new bash command to learn.
+New commands and shortcuts will take a while to get used to. Practice with them to get more comfortable and more efficient working with your computer.
 
-1. Another important part of using your computer efficiently is learning keyboard shortcuts.  Make `Command Space`, `Command F`, and `Command Tab` a part of your everyday coding practice.   If you feel comfortable with those already, choose a new shortcut to learn. 
+1. When you need to work with your file system in WDI, use the command line.  Build a habit of using `cd`, `ls`, `mkdir`, and `touch`.
 
-<!--
+1. Another important part of using your computer efficiently is learning keyboard shortcuts.  Get used to using `Command Space` to open spotlight, `Command Tab` to switch between programs, and `Command F` to find a phrase in a program you have open.
+
+If you're already comfortable with the Terminal commands and shortcuts listed above, choose three from the resources below to start focusing on. Write these down.
+
+
 ### Additional Resources
 
-1. [In-depth HTTP Intro](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
-1. [Starting an Express Project](http://expressjs.com/starter/installing.html)
-1. [Express Hello World](http://expressjs.com/starter/hello-world.html)
-1. [Express Basic Routing](http://expressjs.com/starter/basic-routing.html)
--->
+1. [Mac & Atom Keyboard Shortcuts](https://github.com/sf-wdi-34/schedule/blob/master/how-to/keyboard-shorcuts.md)
+1. [Terminal Commands](https://github.com/sf-wdi-34/schedule/blob/master/how-to/command-line.md)
