@@ -6,7 +6,6 @@ Last edited by: Brianna
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
 # Command Line Interface
-![under construction](http://www.sharonkgilbert.com/wp-content/uploads/2015/12/Under-construction-1-150x150.png)
 
 ### Why is this important?
 <!-- framing the "why" in big-picture/real world examples -->
@@ -88,7 +87,7 @@ On the command line, bash usually have the same structure. The base command is f
 
 The same flags won't work with every command, but knowing a few will help you decide what to look for in a new command's documentation.
 
-1. `-r`
+1. `-r`  
   - `cp -r`
   - `rm -r`
 
@@ -105,15 +104,28 @@ The same flags won't work with every command, but knowing a few will help you de
 
 2. `chmod`
 
+
+#### Getting more information about a command:
+
+1. `man`
+
+1. `--help`
+
+1. Online searches (try adding "in bash" or "Terminal" to your search).
+
+
+
 ###Key Locations on the Mac
 
-Absolute Paths:
+Absolute Paths:  
+
 1. `/`
 
 2. `~`
 
 
 Relative Paths:
+
 3. `.`
 
 4. `..`
