@@ -82,7 +82,19 @@ There's also a `-d` flag, which means only directories will be shown in the file
 
 > Note: While the main command must always come first, you can often put flags before or after the other arguments. Pay attention to the documentation for a command to see how it can be used. 
 
+
+#### Getting more information about a command:
+
+1. `man`
+
+1. `--help`
+
+1. Online searches (try adding "in bash" or "Terminal" to your search).
+
+
 ####Essential commands:
+
+[Worksheet](https://docs.google.com/document/d/1kCOn4TykSWZhGd0teSsm2yaCs_HxZLy2gIqwtqYxysU/edit?usp=sharing)
 
 0. `man`
 
@@ -114,22 +126,10 @@ The same flags won't work with every command, but knowing a few will help you de
 
 3. `-f`
   - `rm -f`
+  
+4. `--help`
+  - `git --help`
 
-
-####Commands for permissions:
-
-1. `sudo`
-
-2. `chmod`
-
-
-#### Getting more information about a command:
-
-1. `man`
-
-1. `--help`
-
-1. Online searches (try adding "in bash" or "Terminal" to your search).
 
 ###Key Locations on the Mac
 
@@ -137,15 +137,33 @@ Absolute Paths:
 
 1. `/`
 
+ <details>
+   <summary>click for info</summary>
+   `/` is the computer's root directory, which contains all the files on the computer. 
+ </details>
+
 2. `~`
 
+ <details>
+   <summary>click for info</summary>
+   `~` is the home directory for the current user. In finder, it's named with your user name. You can `ls ~` to see everything inside it - things like Desktop, Documents, Downloads. 
+ </details>
 
 Relative Paths:
 
 3. `.`
 
+ <details>
+   <summary>click for info</summary>
+   `.` is the current directory. It's sometimes used for commands that require a location. For example, `cp ~/Downloads/kitten.png ./kitten-picture.png`. 
+ </details>
+
 4. `..`
 
+ <details>
+   <summary>click for info</summary>
+   `..` is the directory containing whichever directory you're in, known as the "parent" directory. It's often used when navigating files: `cd ../..` would move you two levels "up" the file tree.  
+ </details>
 
 > Note: When you're typing a file or directory name, you can hit Tab as soon as you've given the computer enough information to know which file you need. Try it!
 
@@ -153,9 +171,16 @@ Relative Paths:
   $ cd ~   
   $ ls  
   Desktop Documents Downloads
-  $ cd D     # if you hit Tab after D, you may hear a beep - the computer can't tell which directory you want yet.
+  $ cd D    # if you hit Tab after D, you may hear a beep - the computer can't tell which directory you want yet.
   $ cd De   # now Tab will fill in Desktop
   ```
+  
+  
+####Commands for permissions:
+
+1. `sudo`: run a command as another user, usually the "super user" with significantly more permissions. **Make sure you understand the effect a `sudo` command will have before you run it and that you trust its source.** See the [man page](https://www.freebsd.org/cgi/man.cgi?query=sudo&apropos=0&sektion=0&manpath=FreeBSD+10.3-RELEASE+and+Ports&arch=default&format=html) and/or [wikipedia](https://en.wikipedia.org/wiki/Sudo).
+
+2. `chmod`: change which users and groups have permission to access a file or direcotry. **Use with care.**  See the [man page](https://www.freebsd.org/cgi/man.cgi?query=chmod&apropos=0&sektion=0&manpath=FreeBSD+10.3-RELEASE+and+Ports&arch=default&format=html) and/or an [explanation](http://www.seas.upenn.edu/cets/answers/chmod.html).
 
 ### Closing Thoughts
 
@@ -175,7 +200,7 @@ New commands and shortcuts will take a while to get used to. Practice with them 
 
 1. Another important part of using your computer efficiently is learning keyboard shortcuts.  Get used to using `Command Space` to open spotlight, `Command Tab` to switch between programs, and `Command F` to find a phrase in a program you have open.
 
-If you're already comfortable with the Terminal commands and shortcuts listed above, choose three from the resources below to start focusing on. Write these down.
+If you're already comfortable with the Terminal commands and shortcuts listed above, choose three from the resources below to start focusing on. Write these down somewhere that will help you remember to use them.
 
 
 ### Additional Resources
