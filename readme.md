@@ -91,10 +91,9 @@ There's also a `-d` flag, which means only directories will be shown in the file
 
 1. Online searches (try adding "in bash" or "Terminal" to your search).
 
+Practice using these resources with this [worksheet](https://docs.google.com/document/d/1kCOn4TykSWZhGd0teSsm2yaCs_HxZLy2gIqwtqYxysU/edit?usp=sharing)!
 
-####Essential commands:
-
-[Worksheet](https://docs.google.com/document/d/1kCOn4TykSWZhGd0teSsm2yaCs_HxZLy2gIqwtqYxysU/edit?usp=sharing)
+####Essential Commands
 
 0. `man`
 
