@@ -113,8 +113,6 @@ The same flags won't work with every command, but knowing a few will help you de
 
 1. Online searches (try adding "in bash" or "Terminal" to your search).
 
-
-
 ###Key Locations on the Mac
 
 Absolute Paths:  
@@ -149,7 +147,7 @@ Relative Paths:
 
 1. What is a "shell"?
 
-1. What will be your go-to resource to
+1. What will be your go-to resource to learn about an unfamiliar command?
 
 **Put it into practice!**
 
