@@ -41,7 +41,7 @@ Many of the tasks developers perform are faster when done from the command line,
 
 - A CLI is a program to interact with a computer through text.  Mac's command line "shell" program is called Terminal. It lets users interact with the operating system.  It's a "Read, Evaluate, Print, Loop"-style program.
 
-  **You do:** Open Terminal. Try using the keyboard shortcut Command + Space to search for Terminal.
+  **You do:** Open Terminal. Try using the keyboard shortcut `Command Space` to search for Terminal.
 
 - User can input commands in a specific "shell" scripting language. The default command line language for macOS and many Linux distributions is called `bash`. You may also eventually use variants like `zsh`, `ash`, `ssh`, and their predecessor `sh`.
 
@@ -91,9 +91,11 @@ There's also a `-d` flag, which means only directories will be shown in the file
 
 1. Online searches (try adding "in bash" or "Terminal" to your search).
 
-Practice using these resources with this [worksheet](https://docs.google.com/document/d/1kCOn4TykSWZhGd0teSsm2yaCs_HxZLy2gIqwtqYxysU/edit?usp=sharing)!
+
+**You do:** Practice using the resources above - with this [worksheet](https://docs.google.com/document/d/1kCOn4TykSWZhGd0teSsm2yaCs_HxZLy2gIqwtqYxysU/edit?usp=sharing)!
 
 ####Essential Commands
+
 
 0. `man`
 
