@@ -133,41 +133,33 @@ The same flags won't work with every command, but knowing a few will help you de
 
 ### Important Locations on the Mac
 
-Absolute Paths:  
+#### Absolute Paths:  
 
-1. `/`
+**`/` (root directory)**
 
- <details>
-   <summary>click for info</summary>
-   `/` is the computer's root directory, which contains all the files on the computer. 
- </details>
+`/` is the computer's root directory, which contains all the files on the computer. 
 
-2. `~`
+**`~` (home directory)**
 
- <details>
-   <summary>click for info</summary>
-   `~` is the home directory for the current user. In finder, it's named with your user name. You can `ls ~` to see everything inside it - things like Desktop, Documents, Downloads. 
- </details>
- 
- **You do:** In Finder, press CMD SHIFT H to enter your home directory. Then press CMD ArrowUp to go one directory up, to the Users directory.  Find the home directory with your user name, and drag it into your favorites so it's easy to find later!
+  `~` is the home directory for the current user. In Finder, it's named with your user name. You can `ls ~` to see everything inside it - things like Desktop, Documents, Downloads. 
+  
+  * **You do:** In Finder, press CMD SHIFT H to enter your home directory. Then press CMD ArrowUp to go one directory up, to the Users directory.  Find the home directory with your user name, and drag it into your favorites so it's easy to find later!
 
-Relative Paths:
+#### Relative Paths:
 
-3. `.`
+**`.` (current directory)**
 
- <details>
-   <summary>click for info</summary>
-   `.` is the current directory. It's sometimes used for commands that require a location. For example, `cp ~/Downloads/kitten.png ./` copies the kitten image from the downloads directory into the current working directory.
- </details>
+  `.` is the current directory. It's sometimes used for commands that require a location. For example, `cp ~/Downloads/kitten.png ./` copies the kitten image from the downloads directory into the current working directory.
 
-4. `..`
+  * **You do:** What would `cd .` do?  Try it out and see if you were correct!
 
- <details>
-   <summary>click for info</summary>
-   `..` is the directory containing whichever directory you're in, known as the "parent" directory. It's often used when navigating files: `cd ../..` would move you two levels "up" the file tree.  
- </details>
+**`..` (parent directory)**
 
-> Note: When you're typing a file or directory name, you can hit Tab as soon as you've given the computer enough information to know which file you need. Try it!
+  `..` is the directory containing whichever directory you're in, known as the "parent" directory. It's often used when navigating files: `cd ../..` would move you two levels "up" the file tree.  
+  
+#### Tab Completion
+
+When you're typing a file or directory name, you can hit Tab as soon as you've given the computer enough information to know which file you need. Try it!
 
   ```bash
   $ cd ~   
