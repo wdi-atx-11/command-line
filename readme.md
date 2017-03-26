@@ -1,6 +1,8 @@
 <!--
 Location: SF
 Last edited by: Brianna
+Created by: Justin Castilla, Ben Manning
+(Extracted from a longer command line guide from WDI33)
 -->
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
@@ -26,7 +28,7 @@ Many of the tasks developers perform are faster when done from the command line,
 - Describe the uses of the `sudo` and `chmod` commands.
 
 
-###Where should we be now?
+### Where should we be now?
 <!-- call out the skills that are prerequisites -->
 *Before this workshop, developers should already be able to:*
 
@@ -37,15 +39,15 @@ Many of the tasks developers perform are faster when done from the command line,
 - Create, move, copy, and delete files or directories from the graphical interface.
 
 
-###What is the Command Line Interface?
+### What is the Command Line Interface?
 
 - A CLI is a program to interact with a computer through text.  Mac's command line "shell" program is called Terminal. It lets users interact with the operating system.  It's a "Read, Evaluate, Print, Loop"-style program.
 
-  **You do:** Open Terminal. Try using the keyboard shortcut `Command Space` to search for Terminal.
+  **You do:** Try using the keyboard shortcut `Command Space` to search for "Terminal".  Open Terminal. 
 
 - User can input commands in a specific "shell" scripting language. The default command line language for macOS and many Linux distributions is called `bash`. You may also eventually use variants like `zsh`, `ash`, `ssh`, and their predecessor `sh`.
 
-  **You do:** In Terminal, use the `pwd` bash command.  What does it tell you?
+  **You do:** In Terminal, use the bash command `pwd`.  What does it tell you?
 
 **Check for Understanding**
 
@@ -55,12 +57,12 @@ Many of the tasks developers perform are faster when done from the command line,
 
 *Hint*: If you're having trouble figuring out how to do something in the Terminal, try searching online for that task plus "in Terminal" or "in bash":
 
-- "create file in bash"
+- "create a file in bash"
 - "list hidden directories in bash"
 
 > Note: `git` commands are not part of the bash language. They use bash, and they're added separately when you install git.
 
-###Bash Commands
+### Bash Commands
 
 Commands on the command line work a lot like functions in JavaScript. The base command is often followed by some number of arguments, and/or by some options or flags.
 
@@ -92,9 +94,9 @@ There's also a `-d` flag, which means only directories will be shown in the file
 1. Online searches (try adding "in bash" or "Terminal" to your search).
 
 
-**You do:** Practice using the resources above - with this [worksheet](https://docs.google.com/document/d/1kCOn4TykSWZhGd0teSsm2yaCs_HxZLy2gIqwtqYxysU/edit?usp=sharing)!
+**You do:** Practice using the resources above - to define each of the essential commands and common flags below!
 
-####Essential Commands
+#### Essential Commands
 
 
 0. `man`
@@ -114,25 +116,25 @@ There's also a `-d` flag, which means only directories will be shown in the file
 7. `cp`
 
 
-####Common Flags
+#### Common Flags
 
 The same flags won't work with every command, but knowing a few will help you decide what to look for in a new command's documentation.
 
-1. `-r`  
+1. `-r`, as in   
   - `cp -r`
   - `rm -r`
 
-2.  `-a`
+2.  `-a`, as in    
   -  `ls -a`
 
-3. `-f`
+3. `-f`, as in   
   - `rm -f`
   
-4. `--help`
+4. `--help`   
   - `git --help`
 
 
-###Key Locations on the Mac
+### Important Locations on the Mac
 
 Absolute Paths:  
 
@@ -149,6 +151,8 @@ Absolute Paths:
    <summary>click for info</summary>
    `~` is the home directory for the current user. In finder, it's named with your user name. You can `ls ~` to see everything inside it - things like Desktop, Documents, Downloads. 
  </details>
+ 
+ **You do:** In Finder, press CMD SHIFT H to enter your home directory. Then press CMD ArrowUp to go one directory up, to the Users directory.  Find the home directory with your user name, and drag it into your favorites so it's easy to find later!
 
 Relative Paths:
 
@@ -156,7 +160,7 @@ Relative Paths:
 
  <details>
    <summary>click for info</summary>
-   `.` is the current directory. It's sometimes used for commands that require a location. For example, `cp ~/Downloads/kitten.png ./kitten-picture.png`. 
+   `.` is the current directory. It's sometimes used for commands that require a location. For example, `cp ~/Downloads/kitten.png ./` copies the kitten image from the downloads directory into the current working directory.
  </details>
 
 4. `..`
@@ -199,12 +203,12 @@ New commands and shortcuts will take a while to get used to. Practice with them 
 
 1. When you need to work with your file system in WDI, use the command line.  Build a habit of using `cd`, `ls`, `mkdir`, and `touch`.
 
-1. Another important part of using your computer efficiently is learning keyboard shortcuts.  Get used to using `Command Space` to open spotlight, `Command Tab` to switch between programs, and `Command F` to find a phrase in a program you have open.
+1. Another important part of using your computer efficiently is learning keyboard shortcuts.  Get used to using `Command Space` to open spotlight for searching, `Command Tab` to switch between programs, and `Command F` to find a phrase in a program you have open.
 
-If you're already comfortable with the Terminal commands and shortcuts listed above, choose three from the resources below to start focusing on. Write these down somewhere that will help you remember to use them.
+If you're already comfortable with the Terminal commands and shortcuts listed above, choose three from the resources below to start focusing on. Write these down on a sticky note, and stick it inside your laptop or somewhere that will help you remember to use them.
 
 
 ### Additional Resources
 
-1. [Mac & Atom Keyboard Shortcuts](https://github.com/sf-wdi-34/schedule/blob/master/how-to/keyboard-shorcuts.md)
-1. [Terminal Commands](https://github.com/sf-wdi-34/schedule/blob/master/how-to/command-line.md)
+1. [Mac & Atom Keyboard Shortcuts](https://github.com/SF-WDI-LABS/how-to/blob/master/keyboard-shorcuts.md)
+1. [Terminal Commands](https://github.com/SF-WDI-LABS/how-to/blob/master/command-line.md)
