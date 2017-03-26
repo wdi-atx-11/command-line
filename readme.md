@@ -120,18 +120,15 @@ There's also a `-d` flag, which means only directories will be shown in the file
 
 The same flags won't work with every command, but knowing a few will help you decide what to look for in a new command's documentation.
 
-1. `-r`, as in   
-  - `cp -r`
-  - `rm -r`
+1. `-r`, as in `cp -r` and `rm -r`
 
-2.  `-a`, as in    
-  -  `ls -a`
+2.  `-a`, as in `ls -a`
 
-3. `-f`, as in   
-  - `rm -f`
+3. `-f`, as in `rm -f`
   
-4. `--help`   
-  - `git --help`
+4. `--help`, as in `git --help`  
+
+5. `--version`, as in `ruby --version`  
 
 
 ### Important Locations on the Mac
@@ -181,7 +178,7 @@ Relative Paths:
   ```
   
   
-####Commands for permissions:
+#### Commands for permissions:
 
 1. `sudo`: run a command as another user, usually the "super user" with significantly more permissions. **Make sure you understand the effect a `sudo` command will have before you run it and that you trust its source.** See the [man page](https://www.freebsd.org/cgi/man.cgi?query=sudo&apropos=0&sektion=0&manpath=FreeBSD+10.3-RELEASE+and+Ports&arch=default&format=html) and/or [wikipedia](https://en.wikipedia.org/wiki/Sudo).
 
